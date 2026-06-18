@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "description": "Design, operate, and migrate workloads across the AWS database portfolio. Skills for Amazon Aurora (PostgreSQL and MySQL — cluster provisioning, ACU sizing, I/O-Optimized storage, upgrades), Amazon ElastiCache (Valkey/Redis data modeling, vector search, semantic caching, migration), and Amazon Keyspaces (Cassandra compatibility, capacity modes, SQL-to-CQL migration), plus exporting RDS snapshots to Amazon S3.",
+  "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+  "keywords": [
+    "aws",
+    "amazon",
+    "amazon-web-services",
+    "database",
+    "databases",
+    "iam",
+    "aurora",
+    "amazon-aurora",
+    "rds",
+    "postgresql",
+    "mysql",
+    "elasticache",
+    "valkey",
+    "redis",
+    "keyspaces",
+    "cassandra",
+    "cql",
+    "vector-search",
+    "semantic-search",
+    "migration",
+    "pricing",
+    "sizing"
+  ],
+  "license": "Apache-2.0",
+  "name": "aws-databases",
+  "repository": "https://github.com/aws/agent-toolkit-for-aws",
+  "version": "1.0.0"
+}

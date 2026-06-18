@@ -20,7 +20,12 @@
     {
       "name": "aws-data-analytics",
       "source": "./plugins/aws-data-analytics",
-      "description": "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, and vector storage and semantic search on Amazon S3 Vectors."
+      "description": "Data lake, analytics, search, and ETL workflows with S3 Tables, AWS Glue, Athena, and Amazon OpenSearch Service. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, vector storage and semantic search on Amazon S3 Vectors, and Amazon OpenSearch Service and Serverless (migration from Solr/Elasticsearch, provisioning, vector/semantic/hybrid search, log analytics, trace analytics)."
+    },
+    {
+      "name": "aws-databases",
+      "source": "./plugins/aws-databases",
+      "description": "Design, operate, and migrate workloads across the AWS database portfolio. Skills for Amazon Aurora (PostgreSQL and MySQL cluster provisioning, ACU sizing, I/O-Optimized storage, upgrades), Amazon ElastiCache (Valkey/Redis data modeling, vector search, semantic caching, migration), and Amazon Keyspaces (Cassandra compatibility, capacity modes, SQL-to-CQL migration), plus exporting RDS snapshots to Amazon S3."
     },
     {
       "name": "aws-agents-for-devsecops",

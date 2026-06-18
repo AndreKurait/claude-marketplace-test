@@ -33,10 +33,16 @@ For `aws-agents` that covers building AI agents on AWS with Amazon Bedrock and A
 /plugin install aws-agents@claude-plugins-official
 ```
 
-For `aws-data-analytics` that covers data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena:
+For `aws-data-analytics` that covers data lake, analytics, search, and ETL workflows with S3 Tables, AWS Glue, Athena, and Amazon OpenSearch Service (migration, provisioning, vector/semantic/hybrid search, log and trace analytics):
 
 ```
 /plugin install aws-data-analytics@claude-plugins-official
+```
+
+For `aws-databases` that covers the AWS database portfolio — Amazon Aurora, ElastiCache, and Keyspaces (provisioning, sizing, migration, and RDS-to-S3 export):
+
+```
+/plugin install aws-databases@claude-plugins-official
 ```
 
 For `aws-agents-for-devsecops` used to investigate incidents, review code and execute UAT for release readiness, scan code for vulnerabilities, and run penetration tests with AWS DevOps Agent and AWS Security Agent.
@@ -68,7 +74,7 @@ Then launch Codex and run `/plugins` to browse and install the **aws-core** plug
 
 Add this repository as a team marketplace from **Settings → Plugins → Team Marketplaces → Add Marketplace → Import from Repo**, pointing it at `aws/agent-toolkit-for-aws`. Cursor indexes the plugins listed in [`.cursor-plugin/marketplace.json`](.cursor-plugin/marketplace.json) on import.
 
-Then open the **Plugins** panel and install the **aws-core** plugin (start here), or **aws-agents** and **aws-data-analytics** as needed. Each plugin bundles the AWS MCP Server configuration and agent skills.
+Then open the **Plugins** panel and install the **aws-core** plugin (start here), or **aws-agents**, **aws-data-analytics**, and **aws-databases** as needed. Each plugin bundles the AWS MCP Server configuration and agent skills.
 
 ### Kiro
 
@@ -121,7 +127,8 @@ Plugins bundle the AWS MCP Server configuration and agent skills into a single i
 |--------|-------------|
 | [aws-core](plugins/aws-core/) | Core AWS skills and MCP Server configuration. Covers service selection, CDK/CloudFormation, serverless, containers, storage, observability, billing, SDK usage, and deployment. **Start here.** |
 | [aws-agents](plugins/aws-agents/) | Skills for building AI agents on AWS with Amazon Bedrock and AgentCore. |
-| [aws-data-analytics](plugins/aws-data-analytics/) | Skills for data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena. |
+| [aws-data-analytics](plugins/aws-data-analytics/) | Skills for data lake, analytics, search, and ETL workflows with S3 Tables, AWS Glue, Athena, and Amazon OpenSearch Service. |
+| [aws-databases](plugins/aws-databases/) | Skills for the AWS database portfolio — Amazon Aurora, ElastiCache, and Keyspaces — plus RDS-to-S3 export. |
 | [aws-agents-for-devsecops](plugins/aws-agents-for-devsecops/) | Investigate incidents, review code and execute UAT for release readiness, scan code for vulnerabilities, and run penetration tests with [AWS DevOps Agent](https://aws.amazon.com/devops-agent/?trk=7b4b0d25-1409-441c-b914-c5d08677c376&sc_channel=ghr) and [AWS Security Agent](https://aws.amazon.com/security-agent/?trk=7b4b0d25-1409-441c-b914-c5d08677c376&sc_channel=ghr). |
 
 Plugins are currently available for Claude Code, Codex, and Cursor. For other agents, configure the AWS MCP Server directly and install skills from this repository.

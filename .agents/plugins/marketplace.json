@@ -41,6 +41,18 @@
       "category": "Cloud"
     },
     {
+      "name": "aws-databases",
+      "source": {
+        "source": "local",
+        "path": "./plugins/aws-databases"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud"
+    },
+    {
       "name": "aws-agents-for-devsecops",
       "source": {
         "source": "local",
