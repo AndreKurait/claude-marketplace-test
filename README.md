@@ -1,3 +1,5 @@
+> **Archived marketplace experiment — November 2026. This personal test copy is frozen. Use [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) for the maintained toolkit. Inherited GitHub automation is disabled.**
+
 # Agent Toolkit for AWS
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
